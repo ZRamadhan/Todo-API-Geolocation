@@ -50,10 +50,6 @@ class Location extends Component {
   }
 
   render() {
-    console.log('location', this.state.location)
-    console.log('location', this.state.latitude)
-    console.log('location', this.state.longitude)
-
     return (
       <Container>
         <Content>
@@ -66,7 +62,7 @@ class Location extends Component {
               </Text>
 
               <Button rounded style={{ display: 'flex', justifyContent: 'center', width: '50%', marginLeft: '25%', marginTop: 20, backgroundColor: '#ffee54' }}
-                onPress={() => Linking.openURL(`https://www.google.com/maps/@${this.state.latitude},${this.state.longitude}z`)}>
+                onPress={() => Linking.openURL(`geo:${this.state.latitude},${this.state.longitude}z`)}>
                 <Text style={{ color: '#1a1a1d' }}>Open Maps</Text>
               </Button>
             </View>

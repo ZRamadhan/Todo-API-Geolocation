@@ -11,17 +11,8 @@ const PageApp = createMaterialBottomTabNavigator({
     screen: TodoScreen,
     navigationOptions: () => ({
       tabBarLabel: 'Todo',
-      tabBarIcon: ({tintColor}) => (
-        <Icon type='FontAwesome5' name='list-alt' size={20} color={tintColor}/>
-      )
-    })
-  },
-  Api: {
-    screen: ApiScreen,
-    navigationOptions: () => ({
-      tabBarLabel: 'Api',
-      tabBarIcon: ({tintColor}) => (
-        <Icon type='FontAwesome5' name='fire-alt' size={20} color={tintColor}/>
+      tabBarIcon: ({ tintColor }) => (
+        <Icon type='FontAwesome5' name='list-alt' size={20} color={tintColor} />
       )
     })
   },
@@ -29,18 +20,27 @@ const PageApp = createMaterialBottomTabNavigator({
     screen: LocationScreen,
     navigationOptions: () => ({
       tabBarLabel: 'Location',
-      tabBarIcon: ({tintColor}) => (
-        <Icon type='FontAwesome5' name='search-location' size={20} color={tintColor}/>
+      tabBarIcon: ({ tintColor }) => (
+        <Icon type='FontAwesome5' name='search-location' size={20} color={tintColor} />
       )
     })
-  }
+  },
+  Api: {
+    screen: ApiScreen,
+    navigationOptions: () => ({
+      tabBarLabel: 'Api',
+      tabBarIcon: ({ tintColor }) => (
+        <Icon type='FontAwesome5' name='fire-alt' size={20} color={tintColor} />
+      )
+    })
+  },
 },
   {
     initialRouteName: 'Todo',
     headerMode: 'none',
     activeColor: '#ffee54',
     inactiveColor: '#ffffff',
-    barStyle: {backgroundColor: '#1a1a1d'}
+    barStyle: { backgroundColor: '#1a1a1d' }
   });
 
 export const AppContainer = createAppContainer(PageApp);
