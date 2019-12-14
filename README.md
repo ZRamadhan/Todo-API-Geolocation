@@ -1,6 +1,6 @@
-# PokeDex
+# Todo-API-Geolocation
 
-This project are meant to be fulfiling the requirements of Warung Pintar company selection test.
+This project are meant to be fulfiling the requirements of Doogether company selection test.
 
 ## Prerequisite
 
