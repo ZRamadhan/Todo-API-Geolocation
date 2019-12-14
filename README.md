@@ -21,6 +21,7 @@ After all of the dependencies are installed then just type ```react-native run-a
 * [React Navigation](https://reactnavigation.org/docs/en/getting-started.html)
 * [Native Base](https://docs.nativebase.io/)
 * [Axios](https://www.npmjs.com/package/axios)
+* [Async Storage](https://github.com/react-native-community/async-storage)
 * [Geolocation](https://github.com/react-native-community/react-native-geolocation)
 
 ## Release
