@@ -38,4 +38,4 @@ Please note, when you are installing the app it will appear pop up warning windo
 
 * **Zulfikar Ilham Ramadhan** - *Mobile Apps Developer*
 
-Feel free to contact me on [LinkedIn](linkedin.com/in/zulfikarir/) if you have found bugs or more ideas to make this app more good.
+Feel free to contact me on LinkedIn - linkedin.com/in/zulfikarir/ if you have found bugs or more ideas to make this app more good.
