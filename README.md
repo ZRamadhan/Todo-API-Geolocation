@@ -4,6 +4,7 @@ This project are meant to be fulfiling the requirements of Doogether company sel
 
 ## Prerequisite
 
+
 In this repo you will find my first iteration of building the PokeDex app, and also for you who want to run this app without installing the release version, first thing to do after setup your computer for react native developing environment are install all the dependencies that used by the app by opening terminal and then type.
 
 ```npm install``` or ```yarn add```. 
@@ -29,7 +30,8 @@ After all of the dependencies are installed then just type ```react-native run-a
 
 ## Release
 * Version 1.0.0
-* Version 1.0.1
+=======
+* Version 1.0.1 (minor update)
 
 * [APK Download](https://drive.google.com/open?id=1LUIzGPGJ2jjfCOzd5RUs9SI8gRAzZ2Nf)
 Please note, when you are installing the app it will appear pop up window that says this app are not secure. I do not realy understand why is that, but what i do suggest you just to ignore that and please continue to install then try the app.
