@@ -16,6 +16,15 @@ const PageApp = createMaterialBottomTabNavigator({
       )
     })
   },
+  Location: {
+    screen: LocationScreen,
+    navigationOptions: () => ({
+      tabBarLabel: 'Location',
+      tabBarIcon: ({tintColor}) => (
+        <Icon type='FontAwesome5' name='search-location' size={20} color={tintColor}/>
+      )
+    })
+  },
   Api: {
     screen: ApiScreen,
     navigationOptions: () => ({
@@ -25,15 +34,6 @@ const PageApp = createMaterialBottomTabNavigator({
       )
     })
   },
-  Location: {
-    screen: LocationScreen,
-    navigationOptions: () => ({
-      tabBarLabel: 'Location',
-      tabBarIcon: ({tintColor}) => (
-        <Icon type='FontAwesome5' name='search-location' size={20} color={tintColor}/>
-      )
-    })
-  }
 },
   {
     initialRouteName: 'Todo',

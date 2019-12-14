@@ -35,7 +35,6 @@ class ApiPost extends Component {
         modalActive: true
       })
     }
-    console.log('response', upload.data.id)
   }
 
   modalVisible = () => {
