@@ -30,8 +30,12 @@ After all of the dependencies are installed then just type ```react-native run-a
 ## Release
 * Version 1.0.0
 * Version 1.0.1 (minor update)
+* Version 1.0.2 (Stable Release apps)
 
-* [APK Download](https://drive.google.com/open?id=1LUIzGPGJ2jjfCOzd5RUs9SI8gRAzZ2Nf)
+* [APK Download V1](https://drive.google.com/open?id=1LUIzGPGJ2jjfCOzd5RUs9SI8gRAzZ2Nf)
+* [APK Download V1.0.1](https://drive.google.com/open?id=1UifBIdRddvHYw0fBIGltqmfbAEXIhogL)
+* [APK Download V1.0.2](https://drive.google.com/open?id=1zNnyvrEr1HRVRBGkFZKPGZE-HR1jcdFR)
+
 Please note, when you are installing the app it will appear pop up warning window that says this app are not secure. I do not realy understand why is that, but what i do suggest to do are to ignore that warning and please continue to install then try the app.
 
 ### Author
