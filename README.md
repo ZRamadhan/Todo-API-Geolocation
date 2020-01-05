@@ -8,9 +8,9 @@ In this repo you will find my first iteration of building the PokeDex app, and a
 
 ```npm install``` or ```yarn add```
 
-After all the dependencies are installed, the next step is install one more depedency (please note that the sequence how you install the depedency are important, so keep following this instruction will be good) by typing.
+Please note that if you want to add more dependencies to this app consider to uninstall one of the dependencies, to uninstall the dependencies type this command below
 
-```npm install react-native-paper``` on your terminal.
+```npm uninstall react-native-paper``` on your terminal.
 
 After all of the dependencies are installed then just type ```react-native run-android```on your terminal.
 
@@ -31,6 +31,7 @@ After all of the dependencies are installed then just type ```react-native run-a
 * Version 1.0.0
 * Version 1.0.1 (minor update)
 * Version 1.0.2 (Stable Release apps)
+
 
 * [APK Download V1](https://drive.google.com/open?id=1YdjBwBF7YIRSJ-tJnb_nX3GVOULpcv1E)
 
